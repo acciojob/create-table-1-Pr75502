@@ -14,5 +14,5 @@ function insert_Row() {
 		td2.textContent="New Cell2"
 	
 		tr.append(td1, td2)
-		 table.insertBefore(tr, table.firstChild); 
+		 table.insertBefore(tr, table.rows[0]); 
 }
