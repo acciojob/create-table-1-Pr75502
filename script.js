@@ -1,8 +1,8 @@
 function insert_Row() {
     //Write your code here
-	let table=document.querySelector("#simpleTable")
+	let table=document.querySelector("#sampleTable")
 	let button=document.querySelector("button")
-	button.addEventListener("click", (e)=>{
+	button.addEventListener("click", ()=>{
 		let tr=document.createElement("tr")
 		let td1=document.createElement("td")
 		td1.innerText="New Cell1"
